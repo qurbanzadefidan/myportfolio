@@ -1,0 +1,67 @@
+<section class="section contact pb-70" id="contact">
+    <div class="container">
+        <div class="row mb-50">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2 class="text-dark mb-0">Contact Me</h2>
+                    <p class="text-muted mb-0">I'm available every weekday! </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <form action="assets/php/mail.php" method="post" id="main_contact_form" class="form contact_form ">
+                    <div class="alert alert-success contact_msg " style="display: none" role="alert">
+                        Your message was sent successfully.
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Name" required="required">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Email" required="required">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required="required">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Message" required="required"></textarea>
+                    </div>
+
+                    <button type="submit" name="submit" class="btn-custom">
+                        <span><i class="fas fa-paper-plane"></i></span>
+                        <span> Send Message</span>
+                    </button>
+
+                </form>
+            </div>
+            <!--Contact -info -->
+            <div class="col-lg-6">
+                <h5 class="text-dark">Let's talk about work!</h5>
+                <p class="text-dark mb-30">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem
+                    ipsum dolor sit amet, consectetuer adipiscing elit.
+                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                <div class="contact-info">
+                    <div class="item mb-20">
+                        <p class="text-dark font-w-700 mb-0">Phone: </p>
+                        <p class="text-dark mb-0"><i class="fa fa-phone base-color"></i>055-292-93-36</p>
+                    </div>
+                    <div class="item mb-20">
+                        <p class="text-dark font-w-700 mb-0">Email: </p>
+                        <p class="text-dark mb-0"><i class="fa fa-envelope base-color"> </i> fqurbanzade@gmail.com</p>
+                    </div>
+                    <div class="item mb-20">
+                        <p class="text-dark font-w-700 mb-0">Adress: </p>
+                        <p class="text-dark mb-0"><i class="fa fa-map-marker-alt"></i>Adil Memmedov 10</p>
+                    </div>
+                    <div class="item">
+                        <p class="text-dark font-w-700 mb-0">Skybe: </p>
+                        <p class="text-dark mb-0"> <i class="fa fab fa-skype base-color"> </i>qurbanzade.fidan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
